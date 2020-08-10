@@ -1,0 +1,11 @@
+.DoctorprofilePage{ 
+    display: grid;
+    grid-template-areas:
+    "Nav Nav"
+    "Profile Overview"
+    "Profile Insurance"
+    "Reviews  Services"; 
+    margin:0px; 
+    padding:0px; 
+}
+

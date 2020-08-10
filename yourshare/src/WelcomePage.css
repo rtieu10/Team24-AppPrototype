@@ -1,0 +1,114 @@
+.head {
+    animation-name: Welcome-zoom-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+}
+
+@keyframes Welcome-zoom-in {
+    from {
+        transform: scale(1.5);
+        opacity: 4;
+    }
+    to {
+        transform: scale(1.0);
+        opacity: 2;
+    }
+}
+
+
+/*Style page as grid*/
+
+.full {
+    display: grid;
+    grid-template-areas: "W W" "A L" "A B";
+    grid-template-rows: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 5%;
+}
+
+.welcome {
+    grid-area: W;
+}
+
+.available {
+    grid-area: A;
+    text-align: left;
+}
+
+.lent {
+    grid-area: L;
+    text-align: left;
+}
+
+.buttons {
+    grid-area: B;
+    text-align: center;
+    padding-left: 40%;
+}
+
+.but {
+    display: block;
+    align-items: center;
+}
+
+
+/* Overrides for Mobile Styling */
+
+@media(max-width:575px) {
+    .full {
+        grid-template-areas: "W" "A" "L" "B";
+        grid-template-columns: auto;
+    }
+}
+
+
+/*Buttons*/
+
+button {
+    background-color: #666464;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #dfe0e2;
+    font-size: medium;
+    margin: 10px;
+}
+
+.borrow:hover {
+    background-color: #666464;
+}
+
+
+/*Table*/
+
+table,
+td {
+    border: 2px solid #a09d9d;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: 5px;
+    vertical-align: middle;
+    font-size: medium;
+}
+
+th {
+    font-size: medium;
+    font-weight: normal;
+    border: 0px;
+    border-collapse: collapse;
+    width: 20%;
+    font-weight: bolder;
+    padding: 0.5%;
+    line-height: 200%;
+}
+
+tr {
+    line-height: 150%;
+}

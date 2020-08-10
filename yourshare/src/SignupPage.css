@@ -1,0 +1,115 @@
+/* h1{ 
+    font-weight: bold; 
+} */
+
+
+.Signup-Page{ 
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    display:grid; 
+    grid-template-areas: 
+    "I F"
+    "I H";
+    grid-template-columns: 40% 1fr; 
+    gap: 10%; 
+    justify-content:center; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Brand{ 
+    font-size:80%; 
+    grid-area: I; 
+    display:flex; 
+    flex-direction:column; 
+    align-items: center; 
+}
+
+.Brand img{ 
+    max-width: 100%; 
+    display:block; 
+    width:50%; 
+    height: 30%;
+}
+
+
+.Signup-Section{ 
+    grid-area: F; 
+    font-size:calc(8pt + 2vw); 
+    width: 100%;
+    justify-content: center;
+}
+
+.Signup-Section h2{ 
+    font-size: 100%;
+}
+
+.Signup-Section h3{ 
+    font-size: 90%;
+}
+
+
+.Signup-Section form{
+    width:100%; 
+}
+
+.Signup-Section input{ 
+    width: 90%; 
+    display:block; 
+    background-color: transparent;
+    border: 0px solid #000000; 
+    padding: 0px 5px; 
+    font-size: 20px;
+    margin-bottom: 20px; 
+}
+
+::-webkit-input-placeholder{ 
+    text-decoration: underline;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+} 
+
+.Signup-Section button{
+   text-align:center;
+   font-size: 0.4em; 
+   font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+   color:white; 
+   background-color: dimgray;
+   padding: 8px 20px;
+} 
+
+
+.hyperlink{ 
+    grid-area: H; 
+    font-size: 1em;
+}
+
+.hyperlink a:visited{ 
+    color:black;
+}
+
+.hyperlink a:hover{ 
+    color:dimgray;
+}
+
+@media(max-width:575px)
+{
+    .Signup-Page{
+        grid-template-areas: 
+        "I"
+        "F"
+        "H";
+        grid-template-columns: auto;
+    }
+    .Brand{
+        justify-content: flex-end;
+        flex-direction:row-reverse;
+    }
+    .Brand img{
+        width:15%;
+        padding:3%;
+    }
+    .Signup-Section{
+        font-size:6vw;
+    }
+    
+}

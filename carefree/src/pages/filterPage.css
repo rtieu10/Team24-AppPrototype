@@ -1,0 +1,13 @@
+.FilterPage {
+    display: flex;
+    margin-left: 2em
+}
+
+.Filter {
+    flex: 1;
+}
+
+.ProviderList {
+    flex: 3;
+    /* margin-top: 3% */
+}

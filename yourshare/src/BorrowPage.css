@@ -1,0 +1,66 @@
+.BorrowPage {
+    border: 2px solid grey;
+}
+
+.BorrowPage>h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.body {
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-areas: "T G";
+    grid-template-columns: 40% 1fr;
+    gap: 5%;
+    justify-items: center;
+    left: 20%;
+}
+
+.item {
+    grid-area: T;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    bottom: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.row>input {
+    width: 90%;
+    display: block;
+    background-color: transparent;
+    border: 2px solid #000000;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+.row>#Descript {
+    height: 100px;
+}
+
+.itemImage {
+    grid-area: G;
+    display: block;
+}
+
+.image>img {
+    height: 90%;
+    width: 90%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 100px;
+    bottom: 100px;
+}

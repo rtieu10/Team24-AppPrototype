@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--Off-White);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root {
+    --Off-White: #EFF2F1;
+    --Primary-Light: #6B9AC4;
+    --Primary: #4059AD;
+    --Primary-Dark: #313E68;
+    --Secondary-Light: #61BD87;
+    --Secondary: #388659;
+    --Secondary-Dark: #2A6543;
+    --Tertiary-Light: #EF846C;
+    --Tertiary: #EC7357;
+    --Tertiary-Dark: #E95635;
+    --Off-Black: #222222;
+    /* https://coolors.co/eff2f1-61bd87-388659-2a6543-6a80c8-4059ad-313e68-ec7357-e95635-222222 */
+}

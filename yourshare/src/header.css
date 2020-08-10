@@ -1,0 +1,16 @@
+/*This is the back navigation and title styling */
+.header{
+    display: flex;
+}
+img{
+    height:50px;
+    margin-top: 20px;
+    padding:10%;
+    
+}
+.screenTitle{
+    margin-left:15px;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-size:2rem;
+}
