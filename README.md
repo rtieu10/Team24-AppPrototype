@@ -1,3 +1,5 @@
+This repository contains the work that I completed as a New Technologist Intern at Microsoft. 
+
 # Carefree
 
 ## Problem statement
